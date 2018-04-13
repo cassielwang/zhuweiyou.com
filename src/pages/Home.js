@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Wrap = styled.div`
-  height: 100%;
+  height: 100vh;
   background: #505050 url(${require('../assets/map.svg')}) no-repeat center;
   background-size: 200% auto;
   user-select: none;

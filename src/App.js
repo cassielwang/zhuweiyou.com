@@ -5,6 +5,6 @@ import Home from './page/Home'
 
 export default () => (
   <BrowserRouter>
-    <Route path='/' component={Home} />
+    <Route path="/" component={Home} />
   </BrowserRouter>
 )

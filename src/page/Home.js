@@ -21,13 +21,16 @@ const List = styled.p`
   padding-top: 20px;
 `
 
-const Item = styled.a`
+const Item = styled.a.attrs({
+  target: '_blank',
+  rel: 'noopener noreferrer'
+})`
   margin: 0 10px;
   color: inherit;
   font-size: 14px;
   text-decoration: none;
   border-bottom: 1px solid #fff;
-  
+
   &:hover,
   &:active {
     opacity: 0.8;
@@ -39,7 +42,7 @@ export default () => (
     <Box>
       <h1>zhu wei you</h1>
       <List>
-        <Item href='https://github.com/zhuweiyou' target='_blank' rel='noopener noreferrer'>github</Item>
+        <Item href="https://github.com/zhuweiyou">github</Item>
       </List>
     </Box>
   </Wrap>
